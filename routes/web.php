@@ -23,4 +23,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/apiview', 'NewsController@apiview');
+
 Route::get('/', 'NewsController@index');
+
+Route::get('/twitter', 'TwitterController@index');
+Route::get('/tweets', 'TweetsController@index');
+Route::get('/hash', 'TweetsController@tweet');
