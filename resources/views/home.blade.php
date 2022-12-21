@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+                    practiceのブランチ修正です！！！
+                    
                 </div>
             </div>
         </div>
